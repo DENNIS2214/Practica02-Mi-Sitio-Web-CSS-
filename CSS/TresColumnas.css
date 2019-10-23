@@ -1,0 +1,41 @@
+.Encabezado {
+    width: 99%;
+    float: left;
+    border: #1d4b4d 1px solid;
+    margin: 0.25cm;
+}
+
+.Menu {
+    width: 25%;
+    float: left;
+    border: red 1px solid;
+    -webkit-border-radius: 20px;
+    background-color: #7B9DD5;
+}
+
+nav a {
+    margin: 5px;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.Articulo {
+    width: 50%;
+    float: left;
+    margin: 0.25cm
+}
+
+.Pie {
+    width: 100%;
+    float: left;
+    border: #1d4b4d 1px solid;
+}
+
+.Ima {
+    width: 5cm;
+    height: 3.75cm;
+}
+
+body {
+    background-color: #201f22;
+}

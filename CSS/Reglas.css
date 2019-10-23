@@ -1,0 +1,50 @@
+/*
+#9ae0f1
+#3f737b
+#1d4b4d
+#f1eeef
+#201f22
+*/
+
+h1 {
+    font-size: 2cm;
+    text-align: center;
+    font-family: "Comic Sans MS", Arial, Verdana;
+    color: #9ae0f1;
+}
+
+h2 {
+    font-size: 1cm;
+    color: #3f737b;
+}
+
+h3 {
+    font-size: 0.95cm;
+    color: black;
+}
+
+h4 {
+    font-size: 1cm;
+    color: #3f737b;
+    text-align: center;
+}
+
+p {
+    color: #f1eeef;
+}
+
+ol li {
+    color: #f1eeef;
+}
+
+tr {
+    color: #f1eeef;
+}
+
+label {
+    color: #f1eeef;
+}
+
+a {
+    color: #f1eeef;
+}

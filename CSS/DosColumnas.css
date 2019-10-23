@@ -1,0 +1,61 @@
+#titulo {
+    width: 99%;
+    float: left;
+    border: #1d4b4d 1px solid;
+    margin: 0.25cm;
+}
+
+#navegacion {
+    width: 25%;
+    float: left;
+    border: red 1px solid;
+    -webkit-border-radius: 20px;
+    background-color: #7B9DD5;
+}
+
+nav a {
+    margin: 5px;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.contenido {
+    width: 70%;
+    float: left;
+    margin: 0.25cm;
+}
+
+.Pie {
+    width: 100%;
+    float: left;
+    border: #1d4b4d 1px solid;
+}
+
+#index {
+    background-color: #201f22;
+}
+
+#Formu {
+    background-color: #201f22;
+}
+
+.Ima {
+    width: 5cm;
+    height: 3.75cm;
+}
+
+.Menu {
+    width: 25%;
+    float: left;
+    border: red 1px solid;
+    -webkit-border-radius: 20px;
+    background-color: #7B9DD5;
+}
+
+#for {
+    line-height: 40px;
+}
+
+#largo {
+    height: 275px;
+}

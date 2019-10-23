@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--
+    “Practica02 – Mi Sitio Web (CSS)”
+    
+    Author: DENNIS PENARANDA
+    Date: 22/10/2019  
+
+    Filename: Formulario.html
+   -->
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link href="../CSS/Reglas.css" rel="stylesheet" />
+    <link href="../CSS/DosColumnas.css" rel="stylesheet" />
+</head>
+
+<body id="Formu">
+    <section>
+        <header class="Encabezado">
+            <img class="Ima" src="Imagenes/Lindex.png" alt="Logo">
+            <h1>Formulario</h1>
+
+        </header>
+        <nav class="Menu" id="largo">
+            <h2>MENU DE NAVEGACION </h2>
+            <a href="../Index.html">Pagina Principal<br /></a>
+            <a href="Nube.html">Juegos en la nube<br /></a>
+            <a href="Ventajas.html">Ventajas<br /></a>
+            <a href="Google.html">Google Stadia<br /></a>
+            <a href="Nvidia.html">Geforce Now<br /></a>
+            <a href="Sony.html">PlayStation Now<br /></a>
+        </nav>
+        <article class="contenido">
+            <h2>Completar </h2>
+
+            <form id="for" action="/my-handling-form-page" method="post">
+                <div>
+                    <label
+                        for="name">Nombre:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" id="name" />
+                </div>
+                <div>
+                    <label for="mail">Correo electronico:&nbsp;&nbsp;</label>
+                    <input type="email" id="mail" />
+                </div>
+                <div>
+                    <label
+                        for="msg">Mensaje:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <textarea id="msg"></textarea>
+                </div>
+            </form>
+            <input type="submit">
+        </article>
+    </section>
+    <footer class="Pie">
+        <p> <br />Dennis Alejandro Pe&ntilde;aranda Tello<br /></p>
+        <p> Universidad Politecnica Saleciana<br /></p>
+        <a href="mailto:dpenaranda@est.ups.edu.ec">Correo<br /></a>
+        <a href="tel:0991778635">Telefono <br /></a>
+        <p> &copy; Todos los derechos reservados<br /></p>
+    </footer>
+</body>
+
+</html>
